@@ -6,7 +6,8 @@ Test 001 (07/set/2022) - https://youtu.be/MpY0PICdcwM
 Test 002 (11/set/2022) - https://youtu.be/PqnyeUTJ9So
 - draw the upper and lower partial walls of the portals
 - covered the floor and ceiling parts
-- height of player (camera) updated according to the floor's height of current subsector
+- height of player (camera) updated according to the floor's height of current sector
 - small test for the floor & ceiling renderer
+
 note: currently it's still not using portals/clipping. it's drawing all the polygons returned by bsp from the furthest to the closest.
 
