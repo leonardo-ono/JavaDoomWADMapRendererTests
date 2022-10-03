@@ -30,3 +30,12 @@ Test 004 (25/set/2022) - https://youtu.be/-6mePgg7gXE
 - sky background (still not working correctly)
 
 Note: I recently realized that visplane can actually be concave and my current routine for converting visplane vertical columns to horizontal spans only works with convex polygons, so there are still some regions in screen space that are not being filled in correctly.
+
+
+Test 005 (02/oct/2022) - https://youtu.be/lp9IE5bph-E
+- visplane issues finally fixed:
+  * now it can handle concave shapes
+  * now it can handle non-contiguous columns
+
+- blockmap & player collision detection with level
+- some sprites / billboard tests
